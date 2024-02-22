@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif
+}
+.dropdown{
+   width: 100%;
+   height: 115vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3),transparent),url('https://i.pinimg.com/736x/34/3d/bb/343dbba45a68d8a37ddc75d7c9f76537.jpg');
+   background-size: cover;
+   background-position: center;
+   padding: 0 8%;
+   position: relative;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1px 0;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 5px;
+}
+nav ul li{
+    padding-top: 10px;
+    display: inline-block;
+    list-style-type:none;
+    margin: 10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    word-spacing: 9px;
+    position:relative;
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background:#fff;
+    transition: 0.3s;
+}
+nav ul li a:hover::after{
+    width: 72%;
+}
+nav ul li a:hover{
+    color:#fff;
+
+}
+.div2 {
+    color: #fff;
+    position:absolute;
+    padding-top: 4px;
+}
+.div2 a{
+    text-decoration: none;
+}
+.div2 h1 {
+    font-size: 50px;
+    line-height:160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url('https://t3.ftcdn.net/jpg/02/97/43/20/360_F_297432072_91FWgspBnuxe85XAWakcmSyFix2tGh6G.jpg');
+    -webkit-background-clip:text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+/* zoom out for indian dances */
+.div2 h1:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.1); 
+}
+.slidediv {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    justify-content: center;
+}
