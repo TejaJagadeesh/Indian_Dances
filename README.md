@@ -1,7 +1,7 @@
 # Indian_Dances using pure #HTML ,#CSS and little bit #JS
 NOTE:-Dont forget to change href links and add videos links in the provided src paths (src="")
 
-                                                                   ABOUT
+                                                          ABOUT
 
 Welcome to our website!Indian Dances as a part of INDIAN CULTURES project.
 
